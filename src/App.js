@@ -3,6 +3,7 @@ import Navbar from "./components/Layout/Navbar";
 import Footer from "./components/Layout/Footer";
 import Home from "./pages/Home";
 import About from "./pages/About";
+import User from "./pages/User";
 import Alert from "./components/Layout/Alert";
 import NotFound from "./pages/NotFound";
 
@@ -24,6 +25,10 @@ function App() {
 								<Route
 									path="/notfound"
 									element={<NotFound />}
+								/>
+								<Route
+									path="/users/:login"
+									element={<User />}
 								/>
 								<Route path="/*" element={<NotFound />} />
 							</Routes>
