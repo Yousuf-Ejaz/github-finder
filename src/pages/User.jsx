@@ -124,8 +124,8 @@ function User() {
 					</div>
 				</div>
 
-				<div className="w-full py-5 mb-6 rounded-lg shadow-md bg-base-100 stats">
-					<div className="grid grid-cols-1 md:grid-cols-3">
+				<div className="w-full py-5 mb-6 rounded-lg shadow-md bg-base-100 ">
+					<div className="grid grid-cols-2 grid-rows-2 md:grid-cols-4 md:grid-rows-1 stats">
 						<div className="stat">
 							<div className="stat-figure text-secondary">
 								<FaUsers className="text-3xl md:text-5xl" />
