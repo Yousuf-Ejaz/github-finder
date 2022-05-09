@@ -40,7 +40,7 @@ function User() {
 
 				<div className="grid grid-cols-1 xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-3 mb-8 md:gap-8">
 					<div className="custom-card-image mb-6 md:mb-0">
-						<div className="rounded-lg shadow-xl card image-full">
+						<div className=" shadow-xl card image-full">
 							<figure>
 								<img src={avatar_url} alt="" />
 							</figure>
@@ -94,13 +94,13 @@ function User() {
 										Website
 									</div>
 									<div className="text-lg stat-value">
-										{/* <a
-											href={websiteUrl}
+										<a
+											href={blog}
 											target="_blank"
 											rel="noreferrer"
 										>
-											{websiteUrl}
-										</a> */}
+											{`https://${blog}`}
+										</a>
 									</div>
 								</div>
 							)}
